@@ -1,0 +1,116 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+html{
+  scroll-behavior: smooth;
+}
+.Nav-Banner{
+  background: linear-gradient(90deg, #F9F6ED  67%, #161517 33%);
+}
+
+@media only screen and (max-width: 768px) {
+  .Nav-Banner{
+    background:#F9F6ED;
+  }
+}
+a{
+  text-decoration: none !important;
+}
+.scroll-indicator{
+  position: fixed;
+  right: 2%;
+  top: 75%;
+  display: flex;
+  flex-direction: column;
+}
+.scroll-indicator a{
+  padding: 10px;
+  margin-bottom: 15px;
+  color: #FF8400;
+  transition: ease-in-out 0.3s;
+  background-color: transparent !important;
+}
+.scroll-indicator a::after{
+  content:'';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #FF8400;
+  border-radius: 5%;
+  transform: rotate(45deg);
+  transform-origin: right center;
+  /* background-color: #FF8400; */
+}
+.scroll-indicator a:hover{
+  transform: rotate(45deg);
+  transform-origin: right center;
+}
+.scroll-indicator a.active::after{
+  
+  background-color: #FF8400;
+  border: 2px solid #FF8400;
+}
+
+
+h1 {
+  font-family: 'Source Sans Pro';
+  font-weight: black;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Source Sans Pro';
+  font-weight: 350;
+  margin: 0px;
+  text-align: center;
+}
+
+p{
+  font-family: 'Source Sans Pro';
+  font-weight: 350;
+  font-size: clamp(10px, 1.2vw, 80px);
+}
+@media only screen and (max-width: 768px) {
+  .scroll-indicator{
+    right: 5%;
+  }
+}
+
+
+
+/*#FFFBF5*/

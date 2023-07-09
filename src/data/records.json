@@ -1,0 +1,216 @@
+[
+    {
+        "id": 1,
+        "title": "Nights Watch",
+        "desc": "\nNights Watch is a frontend web application project that provides information about different movies and TV series which may include synopses of the stories, the genre of the screenplay, cast members and production, running time, etc.  Moreover, links to trailers on youtube, and official and legitimate mediums for watching the content (streaming services. ticket booking websites, etc. ) are also provided.\n\nTo acquire the data (information about movies, links, and images) I used a backend API called the Movie DB API. Major functionalities include <strong>multiple pages</strong> with react routing to display the content effectively, <strong>search</strong> functionality with search terms typed in the search bar, <strong>pagination</strong> to display multiple pages of content, <strong>filtering</strong> movies/shows based on genres, and fully <strong>responsive content</strong> for different screen widths/viewports.\n\n",
+        "learnt":"1. Using <strong>Axios</strong> and <strong>aync await</strong> keywords to fetch data from the API which is later rendered.\n2. Using react functional components and hooks such as <strong>useState, useEffect</strong> etc.\n3. Use <strong>react props</strong> to transfer data to different components and routes.\n4. <strong>Routing</strong> to different pages within the web application.\n5. Using material-UI and being familiar with its documentation.\n\n",
+        "better":"1. Some design choices including but not limited to not adding a loading spinner/content skeleton as the content loads and choosing a modal to show the information instead of routing to a different page.\n2. The movies/shows on the showcase section of each page (at the top) and the similar section (at the bottom of modals), do not lead to its information being shown.\n\n",
+        "status": "Complete and deployed",
+        "images": [
+            {
+                "image": "http://localhost:3000/ProjectImages/NightsWatch/NW1.jpg",
+                "caption": "Home page"
+            },
+            {
+                "image":"http://localhost:3000/ProjectImages/NightsWatch/NW2.gif",
+                "caption": "Show details"
+            },
+            {
+                "image":"http://localhost:3000/ProjectImages/NightsWatch/NW3.jpg",
+                "caption": "Filtering action"
+            },
+            {
+                "image":"http://localhost:3000/ProjectImages/NightsWatch/NW4.png",
+                "caption": "Search page"
+            },
+            {
+                "image":"http://localhost:3000/ProjectImages/NightsWatch/NW5.JPG",
+                "caption": "Search for Ironman"
+            },
+            {
+                "image":"http://localhost:3000/ProjectImages/NightsWatch/NW6.jpg",
+                "caption": "Pagination"
+            }
+            
+            
+        ],
+        "sourceCode": "https://github.com/rafidfarhan/NightsWatch",
+        "liveLink": "https://nightswatch.netlify.app/",
+        "technologiesUsed": [
+            "React JS",
+            "React-Bootstrap",
+            "Material-UI",
+            "CSS"
+        ],
+        "API": 
+            {
+            "name" :"The Movie DB API",
+            "APILink": "https://developer.themoviedb.org/docs/getting-started"
+            }
+            
+        
+        
+    },
+    {
+        "id": 2,
+        "title": "SongBird Backend API",
+        "desc": "\nI decided to create the Songbird API as I was working on a music web application (react, redux frontend project) and came across some problems with the API that I was using (Spotify web API for developers). My main aim for that project was to make a functional music player along with the website which was impossible because of certain restrictions of the API. This along with certain other inconveniences with the API prompted me to attempt a complete MERN project. This is the backend of that project, a full-fleshed API similar to most of the popular music web APIs that are in use.As for the music data for each track (.mp3 files), they were not stored in the database (for obvious reasons) and instead uploaded to a Firebase storage from where they could be easily accessed as the tracks data in the database contained the URLs needed. \n\nThe major functionalities firstly include a <strong>login/logout</strong> process for users along with a system for <strong>forgotten passwords</strong> whereby the user is emailed and prompted to <strong>update</strong> the password. Given that you are logged in as a user, you the user get <strong>access</strong> to tracks, albums, artists, and playlists. In addition, users can <strong>like</strong> a track/remove a like from a track, <strong>follow or unfollow</strong> an artist as well as <strong>save</strong> an album/ remove a saved album. These functionalities are present for all users while there are also special users called <strong>admins</strong> who can do much more (<strong>create a user, update an artist, etc.</strong>). Furthermore, there is also a <strong>search</strong> option for all users to find their favorite artists, songs, albums, or playlists. An HTML file generated by Docgen details the basic <strong>documentation</strong> in the live version of the site.\n",
+        "learnt":"1. Using Node js and express js to develop an API.\n2. Using MongoDB and the fundamentals of NoSQL databases (different queries etc.) along with how to connect it with the backend API using mongoURI and interacting with the database through models.\n3. Organizing the code into models, controllers, and routes.\n4. Using Postman to test the API during the development process and organizing/saving different routes into folders so that documentation can be easily generated once the project was complete.\n5. Use of node dependencies such as dotev, helmet, bcryptjs etc.\n6. Using HTTP methods (POST, PUT, DELETE,UPDATE) properly along with sending appropiate status codes\n7. Use of HTTP headers in sending Metadata.",
+        "better":"1. Better documentation.\n2. Use perf hooks to measure runtime performance.\n3. Implement techniques to improve the performance of the API. (caching requests etc.)",
+        "status": "Complete and deployed",
+        "images": [
+            {
+                "image": "http://localhost:3000/ProjectImages/Songbird API/SongAPI1.jpg",
+                "caption": "Home page"
+            },
+            {
+                "image": "http://localhost:3000/ProjectImages/Songbird API/SongAPI2.JPG",
+                "caption": "Documentation & example"
+            },
+            {
+                "image": "http://localhost:3000/ProjectImages/Songbird API/SongAPI3.JPG",
+                "caption": "Testing with Postman"
+            }
+            
+        ],
+        "sourceCode": "https://github.com/rafidfarhan/SongBirdApi-v1",
+        "liveLink": "https://songbird-api-v1.onrender.com/",
+        "technologiesUsed": [
+            "Node JS",
+            "Express JS",
+            "MongoDB",
+            "Postman"
+        ],
+        "API": {}
+
+    },
+    {
+        "id": 3,
+        "title": "SongBird Frontend",
+        "desc": "The Frontend section of the Songbird MERN project. Even though the initial plan was to develop a React music web application (only frontend with redux state management) using an existing API (Spotify web API for developers), the plans eventually changed due to some restrictions. To begin with, the scale of the frontend project as planned was massive itself but it obviously doubled in scale when I decided to convert the frontend project into a full-stack project.\n\nThe sizable frontend project involves a sign-in/sign-up system (completed), and a fully functional music player (completed) along with different pages and their components to show the content such as artists/albums/playlists (mostly complete). The search functionality is also currently under development (work in progress). As I wanted to delve more into the state management side of things, the size of the project was intentionally kept enormous but it came with a lot of challenges (a lot of bugs, instability, etc.) which has been delaying the completion of the project. Moreover, the code was in need of modification after the API was changed which also complicated things. Even though this project remains incomplete, I feel that I learned a lot by working on something that is this large-scale.",
+        "learnt":"1. A thorough understanding of redux (redux store, reducers, actions, etc.) and the useSelector and useDispatch methods to interact with the store.\n2. How redux is integrated into the react application using the react-redux library.\n3. Using the extension Redux devtools to monitor the redux store/actions etc.",
+        "better":"1. The scale of the project was too large. Planning should have been more thorough with a clear picture of the whole thing in mind. A better understanding and use of SDLC was needed beforehand.\n2. The project could be broken down into smaller chunks (standalone music player etc.) for having an easier time deploying parts of the application.",
+        "status": "Work in progress",
+        "images": [
+            {
+                "image": "http://localhost:3000/ProjectImages/Songbird Client/SongbirdClient1.png",
+                "caption": "Login page"
+            },
+            {
+                "image": "http://localhost:3000/ProjectImages/Songbird Client/SongbirdClient2.png",
+                "caption": "Forgot password"
+            },
+            {
+                "image": "http://localhost:3000/ProjectImages/Songbird Client/SongbirdClient3.png",
+                "caption": "Registration"
+            },
+            {
+                "image": "http://localhost:3000/ProjectImages/Songbird Client/SongbirdClient4.jpg",
+                "caption": "Home page"
+            },
+            {
+                "image": "http://localhost:3000/ProjectImages/Songbird Client/SongbirdClient5.jpg",
+                "caption": "Liked Songs"
+            },
+            {
+                "image": "http://localhost:3000/ProjectImages/Songbird Client/SongbirdClient6.jpg",
+                "caption": "Search page"
+            },
+            {
+                "image": "http://localhost:3000/ProjectImages/Songbird Client/SongbirdClient7.gif",
+                "caption": "Playlist & music player"
+            },
+            {
+                "image": "http://localhost:3000/ProjectImages/Songbird Client/SongbirdClient8.gif",
+                "caption": "Playlist & music player"
+            }
+            
+        ],
+        "sourceCode": "https://github.com/rafidfarhan/SongBirdApi-v1",
+        "liveLink": "",
+        "technologiesUsed": [
+            "React JS",
+            "React Redux",
+            "Material-UI",
+            "CSS"
+        ],
+        "API": 
+            {
+                "name" :"The SongBird Backend API",
+                "APILink": "https://songbird-api-v1.onrender.com/"
+            }
+        
+
+    },
+    {
+        "id": 4,
+        "title": "Basic Social Media",
+        "desc": "A fundamental API for a social networking platform. It is a small-scale back-end project that taught me Node JS and Express JS. The API includes an authorisation mechanism, a user registration system, and the ability to follow/unfollow other users. When signed in, users may also create/delete/update their posts, like/unlike posts, and view a chronology of postings.",
+        "status": "Complete and deployed",
+        "learnt":"1. Using Node js and express js to develop an API.\n2. Using MongoDB and the fundamentals of NoSQL databases (different queries etc.) along with how to connect it with the backend API using mongoURI and interacting with the database through models.\n3. Using Postman during the development phase to test the API",
+        "better":"1. Could develop a more practical and real-world social media rather than such a small-scale one with limited functionalities.",
+        "images": [
+            {
+                "image": "http://localhost:3000/ProjectImages/SocialMedia/Social1.png",
+                "caption": "Home page"
+            }
+            
+        ],
+        "sourceCode": "https://github.com/rafidfarhan/SocialMediaBackend/tree/master/API",
+        "liveLink": "https://social-media-api-v1.onrender.com/",
+        "technologiesUsed": [
+            "Node JS",
+            "Express JS",
+            "MongoDB",
+            "Postman"
+        ],
+        "API": {}
+
+    },
+    {
+        "id": 5,
+        "title": "Personal Portfolio",
+        "desc": "My personal portfolio website with some of my projects.",
+        "learnt":"1. Learnt about dangerouslySetInnerHTML and why it causes vulnerabilities but used it anyways to format and insert HTML directly from the JSON in this project as there are no data taken from user inputs here.",
+        "better":"1. More and better quality projects",
+        "status": "Complete",
+        "images": [
+            {
+                "image":  "http://localhost:3000/ProjectImages/PortfolioProject/P1.png",
+                "caption": "Banner"
+            }
+           
+        ],
+        "sourceCode": "",
+        "liveLink": "",
+        "technologiesUsed": [
+            "React JS",
+            "Material-UI",
+            "CSS"
+        ],
+        "API": {}
+
+    },
+    {
+        "id": 6,
+        "title": "EMS (MVC structured)",
+        "desc": "A university course project which involved modifying a Java project and organizing the code into the MVC (Model, View, Controller) architectural structure. In the theory section of the class, we learned about different software architectural patterns/structures, and in the project, we were to practically implement it.\n\nThe project itself was an Employee management system through which the managers could add/delete/update employees and their details (name, address, pay, position, etc.). The application also has a login system.",
+        "learnt":"1. Got a good understanding of the MVC architectural pattern and how the view is supposed to communicate with controllers and not directly with the models.",
+        "better":"1. Develop a better UI and polish th overall software.",
+        "status": "Complete",
+        "images": [
+            {
+                "image":   "http://localhost:3000/ProjectImages/MVC/mvc1.png",
+                "caption": "Code structure"
+            }
+           
+        ],
+        "sourceCode": "https://github.com/rfkhan9999/470_MVC_EMS/tree/main/MVC_Employee_Management_System",
+        "liveLink": "",
+        "technologiesUsed": [
+            "Java"
+        ],
+        "API": {}
+
+    }
+]

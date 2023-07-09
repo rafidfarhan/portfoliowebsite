@@ -1,0 +1,25 @@
+.footer-div{
+    background-color: #161517;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.social-media-icons{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+.social-media-icons i{
+    font-size: 2vw;
+    color: #F9F6ED;
+    margin: 1%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9F6ED;
+    margin-bottom: 5%;
+}

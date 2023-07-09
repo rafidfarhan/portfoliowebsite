@@ -1,0 +1,224 @@
+
+
+.banner-div{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 100vh;
+    /* padding-left: 5%; */
+    /*padding-right: 3%; */
+    /* padding-top: calc(11.12em + 2em); */
+}
+.banner-div-2{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+    /* padding-left: 5%; */
+    /*padding-right: 3%; */
+    /* padding-top: calc(11.12em + 2em); */
+}
+
+.text-section{
+    justify-content: space-between;
+    width: 100%;
+    color: black;
+    
+}
+
+.text-1 span{
+    font-family: 'Source Sans Pro';
+    font-weight: 350;
+    font-size: clamp(10px, 1.5vw, 80px);
+}
+
+.text-2 h1 {
+    font-size: clamp(40px, 10vw, 100px);
+    font-family: 'Source Sans Pro';
+    font-weight: black;
+    line-height: 90%;
+    
+}
+.text-3 p{
+    padding-top: 2%;
+    font-family: 'Source Sans Pro';
+    font-weight: 350;
+    font-size: clamp(10px, 1.2vw, 80px);
+    width: 40vw;
+    
+}
+@media (prefers-reduced-motion: no-preference) {
+    .react-logo {
+      animation: spin infinite 5s linear;
+    }
+    .python-logo{
+        animation: spin-bigger infinite 3s linear;
+        animation-direction: alternate;
+    }
+  }
+
+  
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin-bigger {
+    0% {
+      transform: rotate(0deg);
+    }
+    60%{
+        transform: rotate(360deg);
+    }
+    80% {
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+  }
+  
+.text-4-icons{
+    font-size: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 25%;
+    
+}
+.text-4-icons img{
+    height: 3vw;
+    width: 3vw;
+    margin-right: 4%;
+    margin-bottom: 3%;
+}
+
+.text-4-icons i{
+    margin-right: 4%;
+}
+
+.text-4 p{
+    padding-top: 5%;
+    margin-right: 7%;
+    font-size: clamp(10px, 1.3vw, 80px);
+    color:#FF8400;
+    
+}
+.photo-section{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.photo-div{
+    /* position: absolute;
+    left: calc(67% - 8vw); */
+    width: 20vw;
+    height: 20vw;
+    background-color: black;
+    background-image: url(../../images/Handsome-color.jpg);
+    background-size: cover;
+    background-position-x: center;
+    /* outline: 2px solid #F9F6ED  ;
+    outline-offset: 5px; */
+     border: 5px solid #F9F6ED;
+    z-index: 4;
+}
+
+.misplaced-frame{
+    width: 20vw;
+    height: 20vw;
+    border: 5px solid white;
+    position: absolute;
+    left: 23%;
+    top: 8%;
+    z-index: 3;
+    /* background-image: url(../../images/Patterns/stripes2.svg); */
+}
+
+.pattern-svg-2{
+    position: absolute;
+    left: 8%;
+    bottom: 80%;
+    width: 8vw;
+    height: 8vw;
+    z-index: 2;
+}
+.illustration-animation{
+    width: 15vw;
+    height: 15vw;
+    background-color: black;
+    background-image: url(../../images/rocket.gif);
+    background-size: cover;
+    background-position-x: center;
+    z-index: 5;
+}
+
+.illustration-section img {
+    height: 20vw;
+    /*margin-top: 5%;
+    margin-left: 20%; */
+    
+}
+/* @media only screen and (max-width: 1025px) {
+    .photo-div{
+        
+    }
+} */
+
+@media only screen and (max-width: 768px) {
+    .photo-section{
+        margin-bottom: 8%;
+    }
+    .photo-div{
+        width: 35vw;
+        height: 35vw;
+        border: 5px solid black;
+        border-radius: 50%;
+    }
+    .pattern-svg-2{
+        display: none;
+    }
+    .misplaced-frame{
+        /* width: 25vw;
+        height: 25vw;
+        border: 5px solid black;
+        left: 18%;
+        top: 5%; */
+        display: none;
+    }
+    .text-section{
+        width: 100%;
+        
+    }
+    
+    .banner-div{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content:center;
+    height: 90vh;
+        
+    }
+    .banner-div-2{
+        width:90%;
+    }
+    .text-3 p{
+        width: 100%;
+        font-size: clamp(10px, 2vw, 80px);
+        
+    }
+    .text-2 h1 {
+        font-size: clamp(40px, 12vw, 100px);
+        font-family: 'Source Sans Pro';
+        font-weight: black;
+        line-height: 90%;
+        
+    }
+    
+}

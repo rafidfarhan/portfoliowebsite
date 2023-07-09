@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+.myNav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: fixed;
+    top: 0;
+    z-index: 1020;
+    background-color: transparent;
+    color: white;
+    transition: ease-in-out 0.3s;
+    
+  
+    /*box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;*/
+  }
+.myNavPadding{
+  padding-left: 3%;
+  padding-right: 3%;
+  transition: ease-in-out 0.3s;
+  color: #FF5B00;
+}
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+    color:#FFFBF5;
+  }
+  
+  .nav-links li {
+    
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+  }
+  .logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    /* background-color: rgba(255,255,255,0.5); */
+    /* width: 200px; */
+    height: 50px;
+    
+    
+  }
+  .logo-sig-1{
+    font-family: HunterRiver;
+    font-size:2vw;
+    font-weight: normal;
+    padding-left: 15%;
+    margin-top: 0;
+  }
+  .logo-sig-2{
+    font-family: HunterRiver;
+    font-size:1vw;
+    font-weight: normal;
+    padding-left: 15%;
+    margin-top: 0;
+    color: transparent;
+  }
+
+  .logo-mark-1{
+    width: 4.5em;
+    fill: #161517;
+    transition: ease-in-out 0.3s;
+  }
+  .logo-mark-2{
+    width: 3em;
+    fill: #FF5B00;
+    transition: ease-in-out 0.3s;
+  }
+  .menuBtn{
+    all: unset !important;
+  }
+  .MuiMenu-root{
+    font-family: 'Source Sans Pro';
+  }
+  @media only screen and (max-width: 768px) {
+    .logo-mark-1 {
+      width: 3em;
+    }
+    .logo-mark-2{
+      width: 2em;
+    }
+  }

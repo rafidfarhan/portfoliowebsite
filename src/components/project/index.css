@@ -1,0 +1,114 @@
+.proj-div{
+    background-color: #F9F6ED;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 8%;
+    padding-bottom: 3%;
+}
+.carousel-wrapper{
+    
+    margin-bottom: 10%;
+}
+/* .slider-left div{
+    color: white !important;
+    border: none !important;
+    background: #FF8400;
+}
+.slider-right div{
+    color: white !important;
+    border: none !important;
+    background: #FF8400;
+} */
+/* These classes in 
+https://github.com/suhailsulu/react-carousel-3d/blob/master/src/styles/style.scss 
+https://reactjsexample.com/3d-carousel-component-in-react/ */
+
+.proj-text-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-bottom:6%;
+}
+.proj-text-div h2{
+    display: flex;
+    font-family: 'Oswald';
+    font-weight:600;
+    letter-spacing: 0.01em;
+    font-size: 2.8em;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+}
+.proj-text-div h4{
+    display: flex;
+    font-family: 'Oswald';
+    font-weight:400;
+    letter-spacing: 0.02em;
+    font-size: 1.62em;
+    width: 70%;
+    padding-bottom: 2%;
+}
+.proj-text-div p{
+    font-family: "Quicksand-1";
+    line-height: 1.6em;
+    font-weight: 350;
+    white-space:pre-line;
+    width: 70%;
+    text-align:justify;
+    font-size: 1.1em;
+
+}
+.proj-text-div span{
+    width: 70%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align:right;
+    font-family: "HunterRiver";
+    font-size: 2.2em;
+}
+.tech-div{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.tech-div p{
+    font-family: "Quicksand-1";
+    width: 100%;
+    font-weight: 350;
+    text-align:center;
+    font-size: 1em;
+   
+}
+.techs{
+    width: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2%;
+
+}
+.techs img{
+    width: 50%;
+}
+.api-div{
+    width: 100%;
+    text-align: start;
+    margin-bottom: 2%;
+}
+.status-p{
+    display: flex;
+    align-items: center;
+}
+@media only screen and (orientation: portrait) {
+.carousel-wrapper{
+    margin-bottom: 20%;
+    margin-top: 20%;
+}
+.techs{
+    margin-bottom: 8%;
+}
+}
