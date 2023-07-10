@@ -121,9 +121,10 @@
     width: 20vw;
     height: 20vw;
     background-color: black;
+    
     background-image: url(../../images/Handsome-color.jpg);
     background-size: cover;
-    background-position-x: center;
+    background-position: center;
     /* outline: 2px solid #F9F6ED  ;
     outline-offset: 5px; */
      border: 5px solid #F9F6ED;
@@ -174,12 +175,16 @@
 @media only screen and (max-width: 768px) {
     .photo-section{
         margin-bottom: 8%;
+        width: 100%;
     }
     .photo-div{
-        width: 35vw;
-        height: 35vw;
+        width: 40vw;
+        height: 40vw;
+        background-size: cover;
+        background-position-x: center;
         border: 5px solid black;
-        border-radius: 50%;
+        background-position: center;
+        border-radius: 100%;
     }
     .pattern-svg-2{
         display: none;
@@ -210,7 +215,7 @@
     }
     .text-3 p{
         width: 100%;
-        font-size: clamp(10px, 2vw, 80px);
+        font-size: clamp(10px, 2.7vw, 80px);
         
     }
     .text-2 h1 {
@@ -220,5 +225,20 @@
         line-height: 90%;
         
     }
-    
+    .text-1 span{
+        font-size: clamp(10px, 3vw, 80px);
+    }
+    .text-4 p{
+        font-size: clamp(10px, 2.7vw, 80px);
+    }
+    .text-4-icons{
+        padding-right: 0%;
+    }
+
+    .text-4-icons img{
+        height: 5vw;
+        width: 5vw;
+        margin-right: 4%;
+        margin-bottom: 3%;
+    }
 }
