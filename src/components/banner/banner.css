@@ -215,7 +215,7 @@
     }
     .text-3 p{
         width: 100%;
-        font-size: clamp(10px, 2.7vw, 80px);
+        font-size: 0.8em;
         
     }
     .text-2 h1 {
@@ -226,18 +226,18 @@
         
     }
     .text-1 span{
-        font-size: clamp(10px, 3vw, 80px);
+        font-size: 1em;
     }
     .text-4 p{
-        font-size: clamp(10px, 2.7vw, 80px);
+        font-size: 0.8em;
     }
     .text-4-icons{
         padding-right: 0%;
     }
 
     .text-4-icons img{
-        height: 5vw;
-        width: 5vw;
+        height: 2.2em;
+        width: 2.2em;
         margin-right: 4%;
         margin-bottom: 3%;
     }

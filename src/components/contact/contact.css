@@ -21,9 +21,15 @@
     margin-top:5%;
     display: flex;
     justify-content: center;
+    text-align: center;
     font-size: clamp(40px, 3vw, 100px);
     color: #FF8400;
    
+  }
+  .form-div h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
   .contact-form{
     width: 80%;
@@ -99,6 +105,39 @@
  .submit-button:hover{
      background-color: #FF8400;
      color: white;
+ }
+
+ @media only screen and (max-width: 768px) {
+    .contact-form{
+    width: 88%;
+    padding: 0;
+    padding-top: 10%;
+    }
+    .form-div h2{
+        width: 88%;
+    }
+    .input-1{
+        height: 50px;
+        width: 96%;
+        font-size:small; 
+    }
+    .message{
+        font-size: small;
+        
+    }
+    .submit-button{
+        height: 40px;
+        border: 2px solid #FF8400;
+        color: #FF8400;
+        background-color: transparent;
+        font-family: 'Source Sans Pro';
+        
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: small;
+        transition: ease-in-out 0.3s;
+    }
  }
 
  /* #FF8400 */

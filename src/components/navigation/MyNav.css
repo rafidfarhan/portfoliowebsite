@@ -37,7 +37,7 @@ li {
   padding-left: 3%;
   padding-right: 3%;
   transition: ease-in-out 0.3s;
-  color: #FF5B00;
+  color: #FF8400;
 }
   .nav-links {
     display: flex;
@@ -66,18 +66,19 @@ li {
   }
   .logo-sig-1{
     font-family: HunterRiver;
-    font-size:2vw;
+    font-size:2em;
     font-weight: normal;
     padding-left: 15%;
     margin-top: 0;
   }
   .logo-sig-2{
     font-family: HunterRiver;
-    font-size:1vw;
+    font-size:1em;
     font-weight: normal;
     padding-left: 15%;
     margin-top: 0;
-    color: transparent;
+    display: none;
+    
   }
 
   .logo-mark-1{
@@ -87,7 +88,7 @@ li {
   }
   .logo-mark-2{
     width: 3em;
-    fill: #FF5B00;
+    fill: #FF8400;
     transition: ease-in-out 0.3s;
   }
   .menuBtn{
@@ -102,5 +103,13 @@ li {
     }
     .logo-mark-2{
       width: 2em;
+    }
+    .myNav{
+      color: #161517;
+      position:initial;
+      background-color: #F9F6ED;
+    }
+    .logo-sig-1{
+      font-size:1.6em;
     }
   }

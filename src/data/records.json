@@ -8,27 +8,27 @@
         "status": "Complete and deployed",
         "images": [
             {
-                "image": "http://localhost:3000/ProjectImages/NightsWatch/NW1.jpg",
+                "image": "https://portfolio-rfkhan.netlify.app/ProjectImages/NightsWatch/NW1.jpg",
                 "caption": "Home page"
             },
             {
-                "image":"http://localhost:3000/ProjectImages/NightsWatch/NW2.gif",
+                "image":"https://portfolio-rfkhan.netlify.app/ProjectImages/NightsWatch/NW2.gif",
                 "caption": "Show details"
             },
             {
-                "image":"http://localhost:3000/ProjectImages/NightsWatch/NW3.jpg",
+                "image":"https://portfolio-rfkhan.netlify.app/ProjectImages/NightsWatch/NW3.jpg",
                 "caption": "Filtering action"
             },
             {
-                "image":"http://localhost:3000/ProjectImages/NightsWatch/NW4.png",
+                "image":"https://portfolio-rfkhan.netlify.app/ProjectImages/NightsWatch/NW4.png",
                 "caption": "Search page"
             },
             {
-                "image":"http://localhost:3000/ProjectImages/NightsWatch/NW5.JPG",
+                "image":"https://portfolio-rfkhan.netlify.app/ProjectImages/NightsWatch/NW5.JPG",
                 "caption": "Search for Ironman"
             },
             {
-                "image":"http://localhost:3000/ProjectImages/NightsWatch/NW6.jpg",
+                "image":"https://portfolio-rfkhan.netlify.app/ProjectImages/NightsWatch/NW6.jpg",
                 "caption": "Pagination"
             }
             
@@ -60,15 +60,15 @@
         "status": "Complete and deployed",
         "images": [
             {
-                "image": "http://localhost:3000/ProjectImages/Songbird API/SongAPI1.jpg",
+                "image": "https://portfolio-rfkhan.netlify.app/ProjectImages/Songbird API/SongAPI1.jpg",
                 "caption": "Home page"
             },
             {
-                "image": "http://localhost:3000/ProjectImages/Songbird API/SongAPI2.JPG",
+                "image": "https://portfolio-rfkhan.netlify.app/ProjectImages/Songbird API/SongAPI2.JPG",
                 "caption": "Documentation & example"
             },
             {
-                "image": "http://localhost:3000/ProjectImages/Songbird API/SongAPI3.JPG",
+                "image": "https://portfolio-rfkhan.netlify.app/ProjectImages/Songbird API/SongAPI3.JPG",
                 "caption": "Testing with Postman"
             }
             
@@ -93,35 +93,35 @@
         "status": "Work in progress",
         "images": [
             {
-                "image": "http://localhost:3000/ProjectImages/Songbird Client/SongbirdClient1.png",
+                "image": "https://portfolio-rfkhan.netlify.app/ProjectImages/Songbird Client/SongbirdClient1.png",
                 "caption": "Login page"
             },
             {
-                "image": "http://localhost:3000/ProjectImages/Songbird Client/SongbirdClient2.png",
+                "image": "https://portfolio-rfkhan.netlify.app/ProjectImages/Songbird Client/SongbirdClient2.png",
                 "caption": "Forgot password"
             },
             {
-                "image": "http://localhost:3000/ProjectImages/Songbird Client/SongbirdClient3.png",
+                "image": "https://portfolio-rfkhan.netlify.app/ProjectImages/Songbird Client/SongbirdClient3.png",
                 "caption": "Registration"
             },
             {
-                "image": "http://localhost:3000/ProjectImages/Songbird Client/SongbirdClient4.jpg",
+                "image": "https://portfolio-rfkhan.netlify.app/ProjectImages/Songbird Client/SongbirdClient4.jpg",
                 "caption": "Home page"
             },
             {
-                "image": "http://localhost:3000/ProjectImages/Songbird Client/SongbirdClient5.jpg",
+                "image": "https://portfolio-rfkhan.netlify.app/ProjectImages/Songbird Client/SongbirdClient5.jpg",
                 "caption": "Liked Songs"
             },
             {
-                "image": "http://localhost:3000/ProjectImages/Songbird Client/SongbirdClient6.jpg",
+                "image": "https://portfolio-rfkhan.netlify.app/ProjectImages/Songbird Client/SongbirdClient6.jpg",
                 "caption": "Search page"
             },
             {
-                "image": "http://localhost:3000/ProjectImages/Songbird Client/SongbirdClient7.gif",
+                "image": "https://portfolio-rfkhan.netlify.app/ProjectImages/Songbird Client/SongbirdClient7.gif",
                 "caption": "Playlist & music player"
             },
             {
-                "image": "http://localhost:3000/ProjectImages/Songbird Client/SongbirdClient8.gif",
+                "image": "https://portfolio-rfkhan.netlify.app/ProjectImages/Songbird Client/SongbirdClient8.gif",
                 "caption": "Playlist & music player"
             }
             
@@ -151,7 +151,7 @@
         "better":"1. Could develop a more practical and real-world social media rather than such a small-scale one with limited functionalities.",
         "images": [
             {
-                "image": "http://localhost:3000/ProjectImages/SocialMedia/Social1.png",
+                "image": "https://portfolio-rfkhan.netlify.app/ProjectImages/SocialMedia/Social1.png",
                 "caption": "Home page"
             }
             
@@ -176,7 +176,7 @@
         "status": "Complete",
         "images": [
             {
-                "image":  "http://localhost:3000/ProjectImages/PortfolioProject/P1.png",
+                "image":  "https://portfolio-rfkhan.netlify.app/ProjectImages/PortfolioProject/P1.png",
                 "caption": "Banner"
             }
            
@@ -193,6 +193,51 @@
     },
     {
         "id": 6,
+        "title": "Banglawash",
+        "desc": "\nA CSE 391 (Programming for the Internet) university course assignment whereby we were expected to make a HTML, CSS, and Javascript project to get some practical understanding of the basics of web development. The website was for a company that provides car washing and other forms of maintenance services. The website was to be used for managing booking times and displaying different types of services that the customers can choose from. This hosted version only has the frontend part.\n\n",
+        "learnt":"1. First time designing for a large project.\n2. A lot about responsive design\n\n",
+        "better":"1. Complete and host the backend.\n\n",
+        "status": "Complete and deployed",
+        "images": [
+            {
+                "image": "https://portfolio-rfkhan.netlify.app/ProjectImages/Banglawash/BW1.gif",
+                "caption": "Home page"
+            },
+            {
+                "image":"https://portfolio-rfkhan.netlify.app/ProjectImages/Banglawash/BW2.jpg",
+                "caption": "About page"
+            },
+            {
+                "image":"https://portfolio-rfkhan.netlify.app/ProjectImages/Banglawash/BW3.jpg",
+                "caption": "Contact form"
+            },
+            {
+                "image":"https://portfolio-rfkhan.netlify.app/ProjectImages/Banglawash/BW4.png",
+                "caption": "Washing Locations"
+            },
+            {
+                "image":"https://portfolio-rfkhan.netlify.app/ProjectImages/Banglawash/BW5.jpg",
+                "caption": "Plans"
+            }
+            
+            
+        ],
+        "sourceCode": "https://github.com/rafidfarhan/BanglaWash",
+        "liveLink": "https://banglawash-c14c9f.netlify.app/",
+        "technologiesUsed": [
+            "HTML",
+            "Javascript",
+            "CSS",
+            "React-Bootstrap"
+        ],
+        "API": 
+            {}
+            
+        
+        
+    },
+    {
+        "id": 7,
         "title": "EMS (MVC structured)",
         "desc": "A university course project which involved modifying a Java project and organizing the code into the MVC (Model, View, Controller) architectural structure. In the theory section of the class, we learned about different software architectural patterns/structures, and in the project, we were to practically implement it.\n\nThe project itself was an Employee management system through which the managers could add/delete/update employees and their details (name, address, pay, position, etc.). The application also has a login system.",
         "learnt":"1. Got a good understanding of the MVC architectural pattern and how the view is supposed to communicate with controllers and not directly with the models.",
@@ -200,7 +245,7 @@
         "status": "Complete",
         "images": [
             {
-                "image":   "http://localhost:3000/ProjectImages/MVC/mvc1.png",
+                "image":   "https://portfolio-rfkhan.netlify.app/ProjectImages/MVC/mvc1.png",
                 "caption": "Code structure"
             }
            
@@ -212,5 +257,81 @@
         ],
         "API": {}
 
+    },
+    {
+        "id": 8,
+        "title": "Simple project",
+        "desc": "\nA CSE 391 (Programming for the Internet) university course assignment whereby we were expected to make a simple HTML, CSS, and Javascript project to get some practical understanding of the absolute basics of web development. Different simple functionalities were implemented involving changing the color and font of quotes when clicking on certain buttons, a weight converter, and some mathematical problems and string manipulation problems done using Vanilla JS. Basic HTML and CSS were used with simple linking within the page for navigation.\n\n",
+        "learnt":"1. Understanding of the basics of HTML, CSS and vanilla JS.\n\n",
+        "better":"1. Could have tried to make the webpage more responsive. \n\n",
+        "status": "Complete and deployed",
+        "images": [
+            {
+                "image": "https://portfolio-rfkhan.netlify.app/ProjectImages/Simple/S1.gif",
+                "caption": "Quote generator"
+            },
+            {
+                "image":"https://portfolio-rfkhan.netlify.app/ProjectImages/Simple/S2.gif",
+                "caption": "Weight converter"
+            },
+            {
+                "image":"https://portfolio-rfkhan.netlify.app/ProjectImages/Simple/S3.gif",
+                "caption": "Min/Max/Sum/Avg"
+            },
+            {
+                "image":"https://portfolio-rfkhan.netlify.app/ProjectImages/Simple/S4.png",
+                "caption": "Some text manipulation"
+            }
+            
+            
+        ],
+        "sourceCode": "",
+        "liveLink": "https://simple-mini-projects-cdcd4f.netlify.app/",
+        "technologiesUsed": [
+            "HTML",
+            "Javascript",
+            "CSS"
+        ],
+        "API": 
+            {}
+            
+        
+        
+    },
+    {
+        "id": 9,
+        "title": "Simple Personal website",
+        "desc": "\nA CSE 391 (Programming for the Internet) university course assignment whereby we were expected to make a simple HTML, CSS, and Javascript project to get some practical understanding of the absolute basics of web development. Basic HTML and CSS were used with simple linking within the page for navigation. \n\n",
+        "learnt":"1. Understanding of the basics of HTML and CSS.\n\n",
+        "better":"1. Could have tried to make the webpage more responsive. \n\n",
+        "status": "Complete and deployed",
+        "images": [
+            {
+                "image": "https://portfolio-rfkhan.netlify.app/ProjectImages/Simple2/1.png",
+                "caption": "Personal info"
+            },
+            {
+                "image":"https://portfolio-rfkhan.netlify.app/ProjectImages/Simple2/2.png",
+                "caption": "Wishes and TV shows"
+            },
+            {
+                "image":"https://portfolio-rfkhan.netlify.app/ProjectImages/Simple2/3.png",
+                "caption": "Artworks"
+            }
+            
+            
+        ],
+        "sourceCode": "",
+        "liveLink": "https://rf-391-centralpage.netlify.app/",
+        "technologiesUsed": [
+            "HTML",
+            "Javascript",
+            "CSS"
+        ],
+        "API": 
+            {}
+            
+        
+        
     }
 ]

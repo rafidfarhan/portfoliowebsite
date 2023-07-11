@@ -23,3 +23,13 @@
     color: #F9F6ED;
     margin-bottom: 5%;
 }
+
+@media only screen and (max-width: 768px) {
+    .social-media-icons i{
+        font-size: 5vw;
+        color: #F9F6ED;
+        margin: 3%;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+}

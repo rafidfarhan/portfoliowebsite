@@ -33,7 +33,9 @@ const Projects = () => {
 
           </div>
           <div className='img-div'>
+            
             <img src= {`${record.images[0].image}`} className='project-image'></img>
+            
           </div>
 
         </div>

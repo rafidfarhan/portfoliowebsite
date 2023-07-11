@@ -107,6 +107,15 @@ p{
   .scroll-indicator{
     right: 5%;
   }
+  .scroll-indicator a{
+    margin-bottom: 8px;
+  }
+  .scroll-indicator a::after{
+    width: 6px;
+    height: 6px;
+    border: 1px solid #FF8400;
+    
+  }
 }
 
 

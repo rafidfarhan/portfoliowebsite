@@ -105,9 +105,11 @@ const Project = () => {
         <h4>Technologies and Tools used:</h4>
         <div className = 'tech-div'>
         {state.record.technologiesUsed.includes("React JS") ? <div className='techs'><img src ={reactLogo}  ></img><p>React JS</p></div>: <></>}
-        {state.record.technologiesUsed.includes("React-Bootstrap") ? <div className='techs'><img src ={bootstrapLogo}  ></img><p>React-Bootstrap</p></div>: <></>}
         {state.record.technologiesUsed.includes("Material-UI") ? <div className='techs'><img src ={materialLogo}  ></img><p>Material-UI</p></div>: <></>}
+        {state.record.technologiesUsed.includes("HTML") ? <div className='techs'><img src ={htmlLogo}  ></img><p>HTML</p></div>: <></>}
         {state.record.technologiesUsed.includes("CSS") ? <div className='techs'><img src ={cssLogo}  ></img><p>CSS</p></div>: <></>}
+        {state.record.technologiesUsed.includes("Javascript") ? <div className='techs'><img src ={jsLogo}  ></img><p>Javascript</p></div>: <></>}
+        {state.record.technologiesUsed.includes("React-Bootstrap") ? <div className='techs'><img src ={bootstrapLogo}  ></img><p>Bootstrap</p></div>: <></>}
         {state.record.technologiesUsed.includes("Node JS") ? <div className='techs'><img src ={nodejsLogo}  ></img><p>Node JS</p></div>: <></>}
         {state.record.technologiesUsed.includes("Express JS") ? <div className='techs'><img src ={expressLogo}  ></img><p>Express JS</p></div>: <></>}
         {state.record.technologiesUsed.includes("MongoDB") ? <div className='techs'><img src ={mongoDBLogo}  ></img><p>MongoDB</p></div>: <></>}
