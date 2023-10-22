@@ -3,6 +3,8 @@ import { Routes,Route, BrowserRouter} from 'react-router-dom';
 import {useState} from 'react';
 import {HashLink} from 'react-router-hash-link';
 import {Link as ScrollLink} from 'react-scroll'  ;
+import ScrollToTop from './components/ScrollToTop'
+
 
 import MyNav from "./components/navigation";
 import Banner from "./components/banner";
@@ -47,10 +49,11 @@ const App = () => {
   return (
     <>
     <BrowserRouter>
-    
+    <ScrollToTop/>
     <MyNav></MyNav>
     
     <Routes>
+      
             <Route path ='/' exact element ={
               <>
               <div className = 'Nav-Banner'>
@@ -70,7 +73,6 @@ const App = () => {
 
             </Route>
             <Route path ='/project/:projectId' exact element ={<Project></Project>}>
-
             </Route>
             
     </Routes>
@@ -81,8 +83,8 @@ const App = () => {
     <Contact ></Contact> */}
     
     
-
     </BrowserRouter>
+    
     </>
     
 

@@ -136,7 +136,7 @@ const Project = () => {
           <p className='status-p'>
             Status <b></b>: {parsed.status} {parsed.status.charAt(0)=== 'C' ? <CheckCircleRoundedIcon style={{ marginLeft: "5px", color:'#037743'}}></CheckCircleRoundedIcon>:<HourglassTopRoundedIcon style={{ marginLeft: "5px", color:'#c00707'}}></HourglassTopRoundedIcon>}
           </p>
-          <span>----- R.Farhan</span>
+          <span className = 'sig'>----- R.Farhan</span>
           
         {/* <div className='button-wrap'>
           <Link to={`${state.record.sourceCode}`} style={{ width: "45%" }}>

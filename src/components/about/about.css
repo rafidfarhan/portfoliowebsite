@@ -2,15 +2,19 @@
     background: linear-gradient(90deg, #ff5500 0%, #FF8400 35%, #ff5500 100%);
     
     height: 15vh;
-    color: #F9F6ED;
+    color: #F9F6ED !important;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1em;
 }
+.resume-section a{
+    text-decoration: none !important;
+    color: #F9F6ED !important;
+}
 .about-parent{
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #F9F6ED  ;
     display: flex;
     justify-content: center;
@@ -20,7 +24,7 @@
 }
 .about-illustration-div{
     width: 40%;
-    height: 100%;
+    /* height: 100%; */
     /* border-top: 10px solid #161517 ; */
     display: flex;
     align-items: center;
@@ -28,7 +32,7 @@
 .about-illustration{
     background-image: url(../../images/About.svg);
     width: 100%;
-    height:80%;
+    height:100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -45,7 +49,8 @@
 
 .about-text-div h1{
     width: 100%;
-    margin-top:5%;
+    /* margin-top:5%; */
+    margin-bottom: 5%;
     display: flex;
     justify-content: center;
     font-size: clamp(40px, 3vw, 100px);
@@ -53,11 +58,20 @@
 .about-desc{
     width: 80%;
     height: 80%;
-    background-image: url(../../images/Patterns/blob.svg);
-    background-size: cover;
-    /* background-color: #161517; */
+    /* background-image: url(../../images/Patterns/blob.svg);
+    background-size: cover; */
+    background-color: #161517;
     padding: 5%;
 }
+
+.about-desc p{
+    font-family: "Quicksand-1";
+    line-height: 1.6em;
+    font-weight: 350;
+    text-align:justify;
+    font-size: 1.1em;
+}
+
 @media only screen and (orientation:portrait) {
     .resume-section{
         height: 10vh;
@@ -71,7 +85,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 70vh;
     }
     .about-illustration-div{
         width: 40%;

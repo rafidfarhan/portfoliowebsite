@@ -51,10 +51,10 @@
     .react-logo {
       animation: spin infinite 5s linear;
     }
-    .python-logo{
+    /* .python-logo{
         animation: spin-bigger infinite 3s linear;
         animation-direction: alternate;
-    }
+    } */
   }
 
   

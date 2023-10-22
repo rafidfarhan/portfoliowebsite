@@ -32,9 +32,7 @@ const Banner =() => {
           <h1> Rafid Farhan.</h1>
         </div>
         <div className = 'text-3'>
-          <p>I’m a software engineer specializing in building (and occasionally designing)
-             exceptional digital experiences. Currently, I’m focused 
-             on building accessible, human-centered products at Upstatement.</p>
+          <p>I am a graduate student of computer science who enjoys creating reliable frontend applications with excellent user experiences.. Currently, I am eager to work on interesting projects to learn and improve my skills.</p>
         </div>
         <div className = 'text-4'>
           <p>Some technologies that I have worked with:</p>
